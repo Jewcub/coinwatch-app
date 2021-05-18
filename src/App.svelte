@@ -1,5 +1,20 @@
 <script>
-	let name = 'world';
+	import Header from "./components/Header.svelte"
 </script>
 
-<h1>Hello {name}!</h1>
+<style> 
+.container {
+	width: 500px;
+	background: #009579;
+}
+
+:global(.container *) {
+	font-family: sans-serif;
+}
+
+</style>
+<div class="container">
+	<Header/>
+	
+	sample text
+</div>
