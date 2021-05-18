@@ -1,5 +1,5 @@
 <script> 
-    import { items } from "../stores";
+import { items } from "../stores";
     $: itemCount = $items.length;
     $: completedItemCount = $items.filter(item => item.completed).length;
 </script>
@@ -21,4 +21,4 @@
 <div class="header">
     <span>Crypto Goals</span>
     <span> {completedItemCount}/{itemCount}</span>
-</div>
+    </div>
