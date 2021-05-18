@@ -1,6 +1,8 @@
 <script>
-	import Header from "./components/Header.svelte"
-	import Lists from "./components/List"
+	import Header from "./components/Header.svelte";
+	import List from "./components/List.svelte";
+	import Holdings from "./components/Holdings.svelte";
+	import ListHoldings from "./components/ListHoldings.svelte";
 </script>
 
 <style> 
@@ -17,6 +19,8 @@
 <div class="container">
 	<Header/>
 	<List/>
-	
-	
 </div>
+<div class="container">
+	<Holdings/>
+	
+</div>	
